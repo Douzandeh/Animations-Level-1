@@ -3,4 +3,10 @@ div{
     height: 100px;
     background-color: blue;
     position: relative;
+    animation: Harekatkon 2s infinite alternate;
+}
+
+@keyframes Harekatkon {
+    from{left: 0px; top:0px}
+    to{left:300px; top:100px}
 }

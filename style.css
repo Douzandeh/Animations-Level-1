@@ -1,12 +1,15 @@
 div{
     width: 100px;
     height: 100px;
-    background-color: blue;
+    background-color: yellow;
     position: relative;
     animation: Harekatkon 2s infinite alternate;
 }
 
 @keyframes Harekatkon {
-    from{left: 0px; top:0px}
-    to{left:300px; top:100px}
+    0% {left:0;top:0px;}
+    25% {left: 300px ; top:0px;}
+    50% {left:300px; top:200px;}
+    75% {left:0;top:200px;}
+    100% {left:0;top:0px;}
 }
